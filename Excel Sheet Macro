@@ -1,0 +1,1125 @@
+Sub scrape_format()
+'
+' scrape_format Macro
+'
+' Keyboard Shortcut: Ctrl+j
+'
+    Range("A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M").Select
+    Range("M1").Activate
+    ActiveWindow.SmallScroll ToRight:=8
+    Range("A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V").Select
+    Range("V1").Activate
+    ActiveWindow.SmallScroll ToRight:=11
+    Range("A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE" _
+        ).Select
+    Range("AE1").Activate
+    ActiveWindow.SmallScroll ToRight:=10
+    Range( _
+        "A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN" _
+        ).Select
+    Range("AN1").Activate
+    ActiveWindow.SmallScroll ToRight:=6
+    Range( _
+        "A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT" _
+        ).Select
+    Range("AT1").Activate
+    ActiveWindow.SmallScroll ToRight:=10
+    Range( _
+        "A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF" _
+        ).Select
+    Range("BF1").Activate
+    ActiveWindow.SmallScroll ToRight:=8
+    Range( _
+        "A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        ).Select
+    Range("BO1").Activate
+    ActiveWindow.SmallScroll ToRight:=9
+    Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO").Select
+    Range("BX1").Activate
+    ActiveWindow.SmallScroll ToRight:=10
+    Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO").Select
+    Range("CG1").Activate
+    ActiveWindow.SmallScroll Down:=-3
+    ActiveWindow.SmallScroll ToRight:=6
+    ActiveWindow.SmallScroll Down:=-1
+    ActiveWindow.SmallScroll ToRight:=2
+    Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN, AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO"). _
+        Select
+    Range("CN1").Activate
+    ActiveWindow.SmallScroll ToRight:=10
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE" _
+        ), Range( _
+        "AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        )).Select
+    Range("CY1").Activate
+    ActiveWindow.SmallScroll ToRight:=10
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V" _
+        ), Range( _
+        "AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        )).Select
+    Range("DE1").Activate
+    ActiveWindow.SmallScroll ToRight:=7
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M" _
+        ), Range( _
+        "S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        )).Select
+    Range("DN1").Activate
+    ActiveWindow.SmallScroll ToRight:=8
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,DW:DW,DX:DX,DY:DY,DZ:DZ,A:A,B:B,C:C,D:D" _
+        ), Range( _
+        "J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        )).Select
+    Range("DZ1").Activate
+    ActiveWindow.SmallScroll ToRight:=8
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,DW:DW,DX:DX,DY:DY,DZ:DZ,EI:EI,EH:EH,EG:EG,EF:EF" _
+        ), Range( _
+        "A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO" _
+        )).Select
+    Range("EF1").Activate
+    ActiveWindow.SmallScroll ToRight:=9
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,DW:DW,DX:DX,DY:DY,DZ:DZ,EI:EI,EH:EH,EG:EG,EF:EF" _
+        ), Range( _
+        "ER:ER,EQ:EQ,EP:EP,EO:EO,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF" _
+        ), Range("BL:BL,BM:BM,BN:BN,BO:BO")).Select
+    Range("EO1").Activate
+    ActiveWindow.SmallScroll ToRight:=13
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,DW:DW,DX:DX,DY:DY,DZ:DZ,EI:EI,EH:EH,EG:EG,EF:EF" _
+        ), Range( _
+        "ER:ER,EQ:EQ,EP:EP,EO:EO,FA:FA,EZ:EZ,EY:EY,EX:EX,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV,AU:AU,AT:AT" _
+        ), Range("BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO")).Select
+    Range("EX1").Activate
+    ActiveWindow.SmallScroll ToRight:=5
+    Union(Range( _
+        "BU:BU,BV:BV,BW:BW,BX:BX,CD:CD,CE:CE,CF:CF,CG:CG,CP:CP,CM:CM,CO:CO,CN:CN,CV:CV,CW:CW,CX:CX,CY:CY,DH:DH,DG:DG,DF:DF,DE:DE,DQ:DQ,DP:DP,DO:DO,DN:DN,DW:DW,DX:DX,DY:DY,DZ:DZ,EI:EI,EH:EH,EG:EG,EF:EF" _
+        ), Range( _
+        "ER:ER,EQ:EQ,EP:EP,EO:EO,FA:FA,EZ:EZ,EY:EY,EX:EX,FG:FG,FH:FH,A:A,B:B,C:C,D:D,J:J,K:K,L:L,M:M,S:S,T:T,U:U,V:V,AB:AB,AC:AC,AD:AD,AE:AE,AK:AK,AL:AL,AM:AM,AN:AN,AW:AW,AV:AV" _
+        ), Range("AU:AU,AT:AT,BC:BC,BD:BD,BE:BE,BF:BF,BL:BL,BM:BM,BN:BN,BO:BO")).Select
+    Range("FH1").Activate
+    Selection.ClearContents
+    Range("EV7").Select
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-1
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-5
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-7
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-21
+    ActiveWindow.LargeScroll ToRight:=-1
+    Range("D1").Select
+    ActiveCell.FormulaR1C1 = "Appliances"
+    Range("M1").Select
+    ActiveCell.FormulaR1C1 = "Automotive"
+    Range("M2").Select
+    ActiveWindow.SmallScroll ToRight:=9
+    Range("V1").Select
+    ActiveCell.FormulaR1C1 = "Baby"
+    Range("V2").Select
+    ActiveWindow.SmallScroll ToRight:=8
+    Range("AE1").Select
+    ActiveCell.FormulaR1C1 = "Beauty & Personal Care"
+    Range("AE2").Select
+    ActiveWindow.SmallScroll ToRight:=8
+    Range("AN1").Select
+    ActiveCell.FormulaR1C1 = "Camera & Photo"
+    Range("AN2").Select
+    ActiveWindow.SmallScroll ToRight:=9
+    Range("AW1").Select
+    ActiveCell.FormulaR1C1 = "Clothing, Shoes & Jewelry"
+    Range("AW2").Select
+    ActiveWindow.SmallScroll Down:=-4
+    ActiveWindow.SmallScroll ToRight:=9
+    Range("BF1").Select
+    ActiveCell.FormulaR1C1 = "Electronics"
+    Range("BF2").Select
+    ActiveWindow.SmallScroll ToRight:=9
+    Range("BO1").Select
+    ActiveCell.FormulaR1C1 = "Grocery & Gourmet Food"
+    Range("BX1").Select
+    ActiveCell.FormulaR1C1 = "Health & Household"
+    Range("CG1").Select
+    ActiveCell.FormulaR1C1 = "Home & Kitchen"
+    Range("BX2").Select
+    ActiveWindow.SmallScroll ToRight:=11
+    Range("CP1").Select
+    ActiveCell.FormulaR1C1 = "Industrial & Scientific"
+    Range("CY1").Select
+    ActiveCell.FormulaR1C1 = "Kitchen & Dining"
+    Range("DH1").Select
+    ActiveCell.FormulaR1C1 = "Musical Instruments"
+    Range("DQ1").Select
+    ActiveCell.FormulaR1C1 = "Office Products"
+    Range("DZ1").Select
+    ActiveCell.FormulaR1C1 = "Patio, Lawn & Garden"
+    Range("E1").Select
+    Range("EI1").Select
+    ActiveCell.FormulaR1C1 = "Pet Supplies"
+    Range("ER1").Select
+    ActiveCell.FormulaR1C1 = "Sports & Outdoors"
+    Range("FA1").Select
+    ActiveCell.FormulaR1C1 = "Tools & Home Improvement"
+    Range("EA2").Select
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-22
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-9
+    ActiveWindow.LargeScroll ToRight:=-3
+    
+'   Start sorting, each section of code is a category
+
+    Range("E2:I1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("E2:E1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("E2:I1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("N2:R1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("N2:N1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("N2:R1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("W2:AA1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("W2:W1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("W2:AA1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("AF2:AJ1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("AF2:AF1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("AF2:AJ1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("AO2:AT1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("AO2:AO1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("AO2:AT1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("AX2:BB1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("AX2:AX1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("AX2:BB1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("BG2:BK1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("BG2:BG1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("BG2:BK1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("BP2:BT1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("BP2:BP1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("BP2:BT1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("BY2:CC1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("BY2:BY1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("BY2:CC1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("CH2:CL1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("CH2:CH1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("CH2:CL1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("CQ2:CU1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("CQ2:CQ1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("CQ2:CU1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("CZ2:DD1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("CZ2:CZ1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("CZ2:DD1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("DI2:DM1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("DI2:DI1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("DI2:DM1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+   
+    Range("DR2:DV1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("DR2:DR1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("DR2:DV1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+  
+    Range("EA2:EE1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("EA2:EA1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("EA2:EE1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("EJ2:EN1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("EJ2:EJ1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("EJ2:EN1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("ES2:EW1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("ES2:ES1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("ES2:EW1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+    
+    Range("FB2:FF1850").Select
+    With ActiveSheet.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key _
+            :=Range("FB2:FB1850"), SortOn:=xlSortOnValues, Order:=xlAscending, _
+            CustomOrder:= _
+            "#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11,#12,#13,#14,#15,#16,#17,#18,#19,#20,#21,#22,#23,#24,#25,#26,#27,#28,#29,#30,#31,#32,#33,#34,#35,#36,#37,#38,#39,#40,#41,#42,#43,#44,#45,#46,#47,#48,#49,#50,#51,#52,#53,#54,#55,#56,#57,#58,#59,#60,#61,#62,#63,#64,#65,#66,#67,#68,#69,#70,#71,#72,#73,#74,#75,#76,#77,#78,#79,#80,#81,#82,#83,#84,#85,#86,#87,#88,#89,#90,#91,#92,#93,#94,#95,#96,#97,#98,#99,#100", DataOption:=xlSortNormal
+        .SetRange Range("FB2:FF1850")
+        .Header = xlGuess
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .Apply
+    End With
+
+'   Adjust column width
+
+    ActiveWindow.SmallScroll ToRight:=-30
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-39
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-1
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    Columns("D:D").ColumnWidth = 9.91
+    Columns("E:E").ColumnWidth = 14.27
+    Columns("F:F").ColumnWidth = 14.36
+    Columns("F:F").ColumnWidth = 88.73
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("G:G").ColumnWidth = 15.64
+    Columns("G:G").ColumnWidth = 16.27
+    Columns("H:H").ColumnWidth = 16.64
+    Columns("I:I").ColumnWidth = 14.18
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("M:M").ColumnWidth = 10.91
+    Columns("N:N").ColumnWidth = 9.45
+    Columns("O:O").ColumnWidth = 88.82
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("P:P").ColumnWidth = 10.64
+    Columns("P:P").ColumnWidth = 11.55
+    Columns("Q:Q").ColumnWidth = 10.91
+    Columns("Q:Q").ColumnWidth = 13.09
+    Columns("Q:Q").ColumnWidth = 15.64
+    Columns("R:R").ColumnWidth = 9.55
+    ActiveWindow.SmallScroll ToRight:=6
+    Columns("W:W").ColumnWidth = 10.45
+    Columns("X:X").ColumnWidth = 89.82
+    Columns("Y:Y").ColumnWidth = 11.64
+    ActiveWindow.SmallScroll ToRight:=6
+    Columns("Z:Z").ColumnWidth = 10.45
+    Columns("Z:Z").ColumnWidth = 15.82
+    Columns("AA:AA").ColumnWidth = 10.91
+    ActiveWindow.SmallScroll ToRight:=3
+    Columns("AE:AE").ColumnWidth = 16.45
+    Columns("AE:AE").ColumnWidth = 21.09
+    Columns("AG:AG").ColumnWidth = 89.91
+    ActiveWindow.SmallScroll ToRight:=6
+    Columns("AH:AH").ColumnWidth = 12.45
+    Columns("AI:AI").ColumnWidth = 9.55
+    Columns("AJ:AJ").ColumnWidth = 13.18
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("AN:AN").ColumnWidth = 15.27
+    Columns("AO:AO").ColumnWidth = 13
+    Columns("AO:AO").ColumnWidth = 14.09
+    Columns("AP:AP").ColumnWidth = 86.64
+    ActiveWindow.SmallScroll ToRight:=7
+    Columns("AQ:AQ").ColumnWidth = 14.09
+    Columns("AQ:AQ").ColumnWidth = 15.64
+    Columns("AR:AR").ColumnWidth = 15.27
+    Columns("AS:AS").ColumnWidth = 14.45
+    ActiveWindow.SmallScroll ToRight:=6
+    Columns("BF:BF").ColumnWidth = 11.55
+    Columns("BG:BG").ColumnWidth = 11
+    Columns("BG:BG").ColumnWidth = 14.09
+    Columns("BH:BH").ColumnWidth = 47.09
+    ActiveWindow.SmallScroll ToRight:=9
+    Columns("BH:BH").ColumnWidth = 89.73
+    Columns("BI:BI").ColumnWidth = 16.18
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("BJ:BJ").ColumnWidth = 15.09
+    Columns("BK:BK").ColumnWidth = 14.73
+    ActiveWindow.SmallScroll ToRight:=3
+    Columns("BO:BO").ColumnWidth = 17.18
+    Columns("BO:BO").ColumnWidth = 21.73
+    Columns("BQ:BQ").ColumnWidth = 89.18
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("BR:BR").ColumnWidth = 10.36
+    Columns("BS:BS").ColumnWidth = 9.55
+    Columns("BT:BT").ColumnWidth = 13.27
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("BX:BX").ColumnWidth = 22
+    Columns("BX:BX").ColumnWidth = 18.91
+    Columns("BY:BY").ColumnWidth = 16.27
+    Columns("BZ:BZ").ColumnWidth = 87.91
+    ActiveWindow.SmallScroll ToRight:=6
+    Columns("CA:CA").ColumnWidth = 14.36
+    Columns("CA:CA").ColumnWidth = 19
+    Columns("CB:CB").ColumnWidth = 17.55
+    ActiveWindow.SmallScroll ToRight:=1
+    Columns("CC:CC").ColumnWidth = 15.91
+    Columns("CG:CG").ColumnWidth = 17.09
+    Columns("CG:CG").ColumnWidth = 15.36
+    Columns("CH:CH").ColumnWidth = 11.09
+    ActiveWindow.SmallScroll ToRight:=1
+    Columns("CI:CI").ColumnWidth = 78.82
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("CI:CI").ColumnWidth = 90.91
+    Columns("CJ:CJ").ColumnWidth = 13.82
+    Columns("CK:CK").ColumnWidth = 12
+    Columns("CL:CL").ColumnWidth = 10.91
+    ActiveWindow.SmallScroll ToRight:=11
+    Columns("CY:CY").ColumnWidth = 14
+    Columns("CZ:CZ").ColumnWidth = 12.36
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("DA:DA").ColumnWidth = 89.82
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("DB:DB").ColumnWidth = 12.09
+    Columns("DB:DB").ColumnWidth = 14.36
+    Columns("DC:DC").ColumnWidth = 12.55
+    Columns("DC:DC").ColumnWidth = 16.09
+    Columns("DD:DD").ColumnWidth = 11.55
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("DH:DH").ColumnWidth = 16.36
+    Columns("DH:DH").ColumnWidth = 17.64
+    Columns("DI:DI").ColumnWidth = 12.36
+    Range("DL4").Select
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("DJ:DJ").ColumnWidth = 89.73
+    ActiveWindow.SmallScroll ToRight:=3
+    Columns("DK:DK").ColumnWidth = 15.64
+    Columns("DL:DL").ColumnWidth = 12.73
+    Columns("DL:DL").ColumnWidth = 14.45
+    Columns("DM:DM").ColumnWidth = 12.36
+    ActiveWindow.SmallScroll ToRight:=10
+    Columns("DZ:DZ").ColumnWidth = 16.82
+    Columns("DZ:DZ").ColumnWidth = 19
+    Columns("EA:EA").ColumnWidth = 12.55
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("EB:EB").ColumnWidth = 89.09
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("EC:EC").ColumnWidth = 13
+    Columns("ED:ED").ColumnWidth = 11.82
+    Columns("ED:ED").ColumnWidth = 13.73
+    Columns("ED:ED").ColumnWidth = 15.91
+    Columns("EE:EE").ColumnWidth = 10
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("EI:EI").ColumnWidth = 10.64
+    ActiveWindow.SmallScroll ToRight:=1
+    Columns("EK:EK").ColumnWidth = 88
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("EL:EL").ColumnWidth = 10.55
+    Columns("EM:EM").ColumnWidth = 10.27
+    Columns("EN:EN").ColumnWidth = 10
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("ER:ER").ColumnWidth = 16.82
+    Columns("ES:ES").ColumnWidth = 10.09
+    Columns("ET:ET").ColumnWidth = 90.64
+    ActiveWindow.SmallScroll ToRight:=7
+    Columns("EU:EU").ColumnWidth = 12.36
+    Columns("EV:EV").ColumnWidth = 10.18
+    Columns("EV:EV").ColumnWidth = 13.73
+    Columns("EV:EV").ColumnWidth = 15.27
+    Columns("EW:EW").ColumnWidth = 14.55
+    ActiveWindow.SmallScroll ToRight:=1
+    Columns("FA:FA").ColumnWidth = 18.36
+    Columns("FA:FA").ColumnWidth = 23.36
+    Columns("FA:FA").ColumnWidth = 24.91
+    Columns("FB:FB").ColumnWidth = 9.82
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("FC:FC").ColumnWidth = 35.55
+    Columns("FC:FC").ColumnWidth = 90.18
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("FD:FD").ColumnWidth = 12.18
+    Columns("FE:FE").ColumnWidth = 10.64
+    Columns("FE:FE").ColumnWidth = 14.64
+    Columns("FF:FF").ColumnWidth = 10.27
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-1
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-7
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-9
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-93
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll Down:=89
+    ActiveWindow.SmallScroll ToRight:=44
+    ActiveWindow.SmallScroll Down:=-162
+    Columns("AW:AW").ColumnWidth = 16.27
+    Columns("AW:AW").ColumnWidth = 22.09
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("AY:AY").ColumnWidth = 95.55
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("AZ:AZ").ColumnWidth = 10.64
+    ActiveWindow.SmallScroll ToRight:=1
+    Columns("BA:BA").ColumnWidth = 10.09
+    Columns("BB:BB").ColumnWidth = 14.27
+    ActiveWindow.SmallScroll ToRight:=-4
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-2
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-1
+    Range("AG11").Select
+    ActiveWindow.SmallScroll ToRight:=-3
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-2
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-9
+    ActiveWindow.SmallScroll Down:=92
+    Range("CN101").Select
+    ActiveWindow.SmallScroll Down:=-565
+    Columns("CP:CP").ColumnWidth = 20.09
+    Columns("CQ:CQ").ColumnWidth = 10.27
+    Columns("CR:CR").ColumnWidth = 90.45
+    Columns("CS:CS").ColumnWidth = 12.36
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("CT:CT").ColumnWidth = 10.45
+    Columns("CT:CT").ColumnWidth = 13.73
+    Columns("CT:CT").ColumnWidth = 15
+    Columns("CU:CU").ColumnWidth = 10.36
+    ActiveWindow.SmallScroll Down:=93
+    Range("DL101").Select
+    ActiveWindow.SmallScroll Down:=-411
+    Columns("DQ:DQ").ColumnWidth = 12.45
+    Columns("DQ:DQ").ColumnWidth = 13.91
+    Columns("DR:DR").ColumnWidth = 10.55
+    Columns("DS:DS").ColumnWidth = 83.91
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("DS:DS").ColumnWidth = 87.45
+    Columns("DT:DT").ColumnWidth = 11.64
+    Columns("DU:DU").ColumnWidth = 10.09
+    Columns("DU:DU").ColumnWidth = 13.27
+    Columns("DU:DU").ColumnWidth = 15.64
+    Columns("DV:DV").ColumnWidth = 10.18
+    ActiveWindow.SmallScroll Down:=83
+    Range("DW92").Select
+    ActiveWindow.SmallScroll Down:=6
+    Range("EQ1").Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    Selection.End(xlToLeft).Select
+    
+    
+' table_of_contents Macro
+
+    Selection.Font.Bold = True
+    Selection.Font.Underline = xlUnderlineStyleSingle
+    ActiveCell.FormulaR1C1 = "TABLE OF CONTENTS:"
+    Range("A3").Select
+    Columns("A:A").ColumnWidth = 18.55
+    Range("A2").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#D1"", ""Appliances"")"
+    Range("A3").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#M1"", Automotive)"
+    Range("A3").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#M1"", ""Automotive"")"
+    Range("A4").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#V1"", ""Baby"")"
+    Range("A5").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#ae1"", ""Beauty & Personal Care"")"
+    Range("A6").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#AN1"", ""Camera & Photo"")"
+    Range("A7").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#AW1"", ""Clothing, Shoes & Jewelry"")"
+    Range("A8").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#bf1"", ""Electronics"")"
+    Range("A9").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#bo1"", ""Grocery & Gourmet Food"")"
+    Range("A10").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#bx1"", ""Health & Household"")"
+    Range("A11").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#cg1"", ""Home & Kitchen"")"
+    Range("A12").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#cp1"", ""Industrial & Scientific"")"
+    Range("A13").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#cy1"", ""Kitchen & Dining"")"
+    Range("A14").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#dh1"", ""Musical Instruments"")"
+    Range("A15").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#dq1"", )"
+    Range("A14").Select
+    ActiveCell.FormulaR1C1 = """"
+    Range("A15").Select
+    Application.Goto Reference:="R1C121"
+    ActiveWindow.SmallScroll ToRight:=-21
+    ActiveWindow.LargeScroll ToRight:=-1
+    ActiveWindow.SmallScroll ToRight:=-47
+    ActiveWindow.LargeScroll ToRight:=-1
+    Range("A15").Select
+    Application.Goto Reference:="R1C121"
+    ActiveWindow.SmallScroll ToRight:=-52
+    ActiveWindow.LargeScroll ToRight:=-3
+    Range("A15").Select
+    Selection.Cut
+    Range("A14").Select
+    ActiveSheet.Paste
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#dh1"", ""Musical Instruments"")"
+    Range("A15").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#dq1"", ""Office Products"")"
+    Range("A16").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#dz1"", ""Patio, Lawn & Garden"")"
+    Range("A17").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#ei1"", ""Pet Supplies"")"
+    Range("A18").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#er1"", ""Sports & Outdoors"")"
+    Range("A19").Select
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#fa1"", ""Tools & Home Improvement"")"
+    Range("A20").Select
+    ActiveWindow.SmallScroll Down:=-21
+    Columns("A:A").ColumnWidth = 23
+    Range("C3").Select
+    ActiveCell.FormulaR1C1 = "Next:"
+    Range("D3").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A3").Select
+    Selection.Copy
+    Range("D3").Select
+    ActiveSheet.Paste
+    Columns("D:D").ColumnWidth = 11
+    Range("A3").Select
+    Application.Goto Reference:="R1C13"
+    Range("A4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A3").Select
+    Application.Goto Reference:="R1C13"
+    Range("M3").Select
+    ActiveSheet.Paste
+    Range("M4").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#a1"", ""Table of Contents"")"
+    Range("M5").Select
+    Columns("M:M").ColumnWidth = 15.55
+    Range("A5").Select
+    Selection.Copy
+    Range("A4").Select
+    Application.Goto Reference:="R1C22"
+    Range("V3").Select
+    ActiveSheet.Paste
+    Range("M4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("V4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("V:V").ColumnWidth = 20.09
+    Range("V4").Select
+    Application.Goto Reference:="R1C1"
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "TABLE OF CONTENTS:"
+    Range("A6").Select
+    Selection.Copy
+    Range("A5").Select
+    Application.Goto Reference:="R1C31"
+    Range("AE3").Select
+    ActiveSheet.Paste
+    Range("V4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AE4").Select
+    ActiveSheet.Paste
+    Columns("AE:AE").ColumnWidth = 15.27
+    Range("AE4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A7").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A6").Select
+    Application.Goto Reference:="R1C40"
+    Range("AN3").Select
+    ActiveSheet.Paste
+    Range("AE4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AN4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=5
+    Columns("AN:AN").ColumnWidth = 21.64
+    Range("AN4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A8").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A7").Select
+    Application.Goto Reference:="R1C49"
+    Range("AW3").Select
+    ActiveSheet.Paste
+    Range("AN4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("AW4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("AW:AW").ColumnWidth = 15.36
+    Range("AW4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A9").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A8").Select
+    Application.Goto Reference:="R1C58"
+    Range("BF3").Select
+    ActiveSheet.Paste
+    Range("AW4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    ActiveWindow.SmallScroll ToRight:=3
+    Range("BF4").Select
+    ActiveSheet.Paste
+    Columns("BF:BF").ColumnWidth = 22.36
+    Range("BF4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A10").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A9").Select
+    Application.Goto Reference:="R1C67"
+    Range("BO3").Select
+    ActiveSheet.Paste
+    Range("BF4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("BO4").Select
+    ActiveSheet.Paste
+    Columns("BO:BO").ColumnWidth = 13.55
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("BO:BO").ColumnWidth = 17.82
+    Range("BO4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A11").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A10").Select
+    Application.Goto Reference:="R1C76"
+    ActiveWindow.SmallScroll ToRight:=4
+    Range("BX3").Select
+    ActiveSheet.Paste
+    Range("BO4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("BX4").Select
+    ActiveSheet.Paste
+    Columns("BX:BX").ColumnWidth = 15.73
+    Range("BX4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A12").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A11").Select
+    Application.Goto Reference:="R1C85"
+    Range("CG3").Select
+    ActiveSheet.Paste
+    Range("BX4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    ActiveWindow.SmallScroll ToRight:=4
+    Range("CG4").Select
+    ActiveSheet.Paste
+    Columns("CG:CG").ColumnWidth = 17.91
+    Range("CG4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A13").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A12").Select
+    Application.Goto Reference:="R1C94"
+    ActiveWindow.SmallScroll ToRight:=3
+    Range("CP3").Select
+    ActiveSheet.Paste
+    Range("CG4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("CP4").Select
+    ActiveSheet.Paste
+    Columns("CP:CP").ColumnWidth = 15.82
+    Range("CP4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A14").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A13").Select
+    Application.Goto Reference:="R1C103"
+    ActiveWindow.SmallScroll ToRight:=3
+    Range("CY3").Select
+    ActiveSheet.Paste
+    Range("CP4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("CY4").Select
+    ActiveSheet.Paste
+    Columns("CY:CY").ColumnWidth = 17.27
+    Range("CY4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A15").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A14").Select
+    Application.Goto Reference:="R1C112"
+    ActiveWindow.SmallScroll ToRight:=2
+    Range("DH3").Select
+    ActiveSheet.Paste
+    Range("CY4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("DH4").Select
+    ActiveSheet.Paste
+    Columns("DH:DH").ColumnWidth = 15.27
+    Range("DH4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A16").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A15").Select
+    Application.Goto Reference:="R1C121"
+    Range("DQ3").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=3
+    Range("DH4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("DQ4").Select
+    ActiveSheet.Paste
+    Columns("DQ:DQ").ColumnWidth = 18.27
+    Range("DQ4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A17").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A16").Select
+    Application.Goto Reference:="R1C130"
+    ActiveWindow.SmallScroll ToRight:=3
+    Range("DZ3").Select
+    ActiveSheet.Paste
+    Range("DQ4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("DZ4").Select
+    ActiveSheet.Paste
+    Columns("DZ:DZ").ColumnWidth = 15.55
+    Range("DZ4").Select
+    Application.Goto Reference:="R1C1"
+    Range("A18").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A17").Select
+    Application.Goto Reference:="R1C139"
+    Range("EI3").Select
+    ActiveSheet.Paste
+    Range("DZ4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("EI4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=3
+    Columns("EI:EI").ColumnWidth = 16
+    Range("EI4").Select
+    Application.Goto Reference:="R1C1"
+    ActiveWindow.SmallScroll Down:=2
+    Columns("A:A").ColumnWidth = 25.18
+    Range("A19").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("A18").Select
+    Application.Goto Reference:="R1C148"
+    Range("ER3").Select
+    ActiveSheet.Paste
+    Range("EI4").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("ER4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("ER:ER").ColumnWidth = 15.36
+    Columns("ER:ER").ColumnWidth = 23.73
+    Columns("ER:ER").ColumnWidth = 24.36
+    ActiveWindow.SmallScroll ToRight:=5
+    Range("ER3").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "=HYPERLINK(""#fa1"", ""Tools & Home Improvement"")"
+    Range("ER3").Select
+    Application.Goto Reference:="R1C157"
+    Range("ER4").Select
+    Selection.Copy
+    Range("FA4").Select
+    ActiveSheet.Paste
+    ActiveWindow.SmallScroll ToRight:=4
+    Columns("FA:FA").ColumnWidth = 15.45
+    Range("FA4").Select
+    Application.Goto Reference:="R1C1"
+    ActiveWindow.SmallScroll Down:=-3
+    Range("A2").Select
+    Application.Goto Reference:="R1C4"
+    Range("D3").Select
+    Application.Goto Reference:="R1C13"
+    Range("M3").Select
+    Application.Goto Reference:="R1C22"
+    Range("V3").Select
+    Application.Goto Reference:="R1C31"
+    Columns("AE:AE").ColumnWidth = 20.27
+    Range("AE3").Select
+    Application.Goto Reference:="R1C40"
+    Range("AN3").Select
+    Application.Goto Reference:="R1C49"
+    Columns("AW:AW").ColumnWidth = 22.91
+    Range("AW3").Select
+    Application.Goto Reference:="R1C58"
+    Range("BF3").Select
+    Application.Goto Reference:="R1C67"
+    Columns("BO:BO").ColumnWidth = 21.36
+    Range("BO3").Select
+    Application.Goto Reference:="R1C76"
+    ActiveWindow.SmallScroll ToRight:=2
+    Columns("BX:BX").ColumnWidth = 17.09
+    Range("BX3").Select
+    Application.Goto Reference:="R1C85"
+    Range("CG3").Select
+    Application.Goto Reference:="R1C94"
+    Columns("CP:CP").ColumnWidth = 18.82
+    Range("CP3").Select
+    Application.Goto Reference:="R1C103"
+    Range("CY3").Select
+    Application.Goto Reference:="R1C112"
+    Columns("DH:DH").ColumnWidth = 17.64
+    Range("DH3").Select
+    Application.Goto Reference:="R1C121"
+    Range("DQ3").Select
+    Application.Goto Reference:="R1C130"
+    Columns("DZ:DZ").ColumnWidth = 18
+    Range("DZ3").Select
+    Application.Goto Reference:="R1C139"
+    Range("EI3").Select
+    Application.Goto Reference:="R1C148"
+    Range("ER3").Select
+    Application.Goto Reference:="R1C157"
+    Range("FA4").Select
+    Application.Goto Reference:="R1C1"
+    Range("B6").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "lkfds"
+    Range("B6").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("A1").Select
+    ActiveWindow.SmallScroll Down:=8
+    Range("A19").Select
+    Application.Goto Reference:="R1C157"
+    Columns("FA:FA").ColumnWidth = 24.09
+    Range("FA4").Select
+    Application.Goto Reference:="R1C1"
+End Sub
